@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #f0ebe3;
+    }
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: .75rem;
+    }
+
+    .navbar-brand {
+      font-family: "Poppins", sans-serif;
+      color: #FE5D26;
+      font-weight: bold;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="wheel2.gif" alt="prayer_wheel" height="50"> AAYANSH HOMESTAY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Rooms</a></li>
+              <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Places Nearby</a></li>
+            </ul>
+          </li>         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Book My Stay" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="px-4 pt-5 my-5 text-center border-bottom"> <h1 class="display-4 fw-bold text-body-emphasis"> Welcome To Aayansh Homestay </h1> <div class="col-lg-6 mx-auto"> <p class="lead mb-4">Nestled in the heart of Namchi, our cozy homestay offers a peaceful retreat surrounded by nature and local culture. Experience warm Sikkimese hospitality, comfortable rooms with stunning views of the mountains, and home-cooked meals made with love. Whether you're seeking spiritual serenity or a base to explore South Sikkim, our homestay is the perfect place to relax, rejuvenate, and feel at home.</p> <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5"> <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">BOOK NOW</button> <button type="button" class="btn btn-outline-secondary btn-lg px-4">CALL</button> </div> </div> <div class="overflow-hidden" style="max-height: 30vh;"> <div class="container px-5"> <img src="./welcome.JPG" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="700" loading="lazy"> </div> </div> </div>
+  <div class="container px-4 py-5" id="featured-3"> <h2 class="pb-2 border-bottom">Why Stay at Aayansh Homestay ?</h2> <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <img src="./wifi.svg" alt="briefcase" height="30"></div> <h3 class="fs-2 text-body-emphasis">Free Wifi</h3> <p>Connect to the Digital World.</p> <a href="#" class="icon-link">
+    Call to action
+    <img src="./chevron-right.svg"> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <img src="./drink.svg" alt="bus" height="30"> </div> <h3 class="fs-2 text-body-emphasis">In-house bar</h3> <p>All Types of Premium Foreign Drinks.</p> <a href="#" class="icon-link">
+    Call to action
+    <img src="./chevron-right.svg"> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <img src="./food.svg" height="30"> </div> <h3 class="fs-2 text-body-emphasis">Delicious Home-Cooked Meals</h3> <p>Savor organic, homemade food prepared with traditional flavors.</p> <a href="#" class="icon-link">
+    Call to action
+    <img src="./chevron-right.svg"> </a> </div> </div> </div>
+
+  <div class="container">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./t1.PNG" class="d-block w-100" alt="nearby places">
+        </div>
+        <div class="carousel-item">
+          <img src="./sai.PNG" class="d-block w-100" alt="sai">
+        </div>
+        <div class="carousel-item">
+          <img src="./chardam.PNG" class="d-block w-100" alt="chardam">
+        </div>
+        <div class="carousel-item">
+          <img src="./samduptse.PNG" class="d-block w-100" alt="samduptse">
+        </div>
+        <div class="carousel-item">
+          <img src="./buddha.PNG" class="d-block w-100" alt="buddha">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container"> <footer class="py-3 my-4"> <ul class="nav justify-content-center border-bottom pb-3 mb-3"> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> </ul> <p class="text-center text-body-secondary">© 2025 Company, Inc</p> </footer> </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+   
+</html>
